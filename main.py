@@ -1,4 +1,4 @@
-from email_sender import send_message
+from email_sender import send_mail
 
 # Add your processing code here
 
@@ -9,7 +9,7 @@ from email_sender import send_message
 mail = {}
 
 mail['sender'] = 'youremail'
-mail['reciever'] = 'recipient'
+mail['reciever'] = 'recipient email'
 mail['subject'] = 'demo-subject'
 mail['body'] = 'demo-body'
 
